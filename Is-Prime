@@ -1,0 +1,12 @@
+import random
+import sys
+import os
+def isprime():
+    a = int(input("Give me a number: "))
+    for element in range(2,a):
+        if a%element == 0:
+            print("It is not a prime number")
+            return
+
+    print("The number is a prime number")
+isprime()
