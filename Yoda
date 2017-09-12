@@ -1,0 +1,7 @@
+def reverse_str():
+    s = raw_input("Give a string: ")
+    ss = s.split(" ")
+    rs = ss[::-1]
+    rss = ' '.join(rs)
+    print("A yoda should say: " + rss)
+reverse_str()
