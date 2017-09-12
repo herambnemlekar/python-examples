@@ -1,0 +1,4 @@
+def no_duplicates():
+    l = input("Give me a list: ")
+    print(list(set(l)))
+no_duplicates()
